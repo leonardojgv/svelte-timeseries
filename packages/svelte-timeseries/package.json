@@ -47,13 +47,15 @@
 	"types": "./dist/index.d.ts",
 	"dependencies": {
 		"@duckdb/duckdb-wasm": "1.30.0",
-		"@qtsurfer/sveltecharts": "workspace:*"
+		"@qtsurfer/sveltecharts": "^0.4.0"
 	},
 	"peerDependencies": {
+		"@duckdb/duckdb-wasm": "1.30.0",
+		"@qtsurfer/sveltecharts": "workspace:^0.4.0",
+		"apache-arrow": "^17.0.0",
 		"svelte": "^5.43.14"
 	},
 	"devDependencies": {
-		"@qtsurfer/sveltecharts": "workspace:*",
 		"@sveltejs/adapter-auto": "^7.0.0",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.48.6",

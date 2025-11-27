@@ -30,7 +30,7 @@ importers:
         specifier: 1.30.0
         version: 1.30.0
       '@qtsurfer/sveltecharts':
-        specifier: workspace:*
+        specifier: workspace:^0.4.0
         version: link:../sveltecharts
     devDependencies:
       '@sveltejs/adapter-auto':
